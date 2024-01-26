@@ -130,6 +130,7 @@ class BarChart extends AbstractChart<BarChartProps, BarChartState> {
           rx={barRadius}
           width={barWidth}
           height={(Math.abs(barHeight) / 4) * 3}
+          onClick={onPress}
           onPress={onPress}
           fill={
             withCustomBarColorFromData
