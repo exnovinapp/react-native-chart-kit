@@ -318,6 +318,7 @@ class LineChart extends AbstractChart<LineChartProps, LineChartState> {
                 ? getDotColor(x, i)
                 : this.getColor(dataset, 0.9)
             }
+            onClick={onPress}
             onPress={onPress}
             {...this.getPropsForDots(x, i)}
           />,
